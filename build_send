@@ -1,0 +1,3 @@
+#!/bin/bash
+cargo build --release --target xtensa-esp32-espidf
+sudo espflash flash target/xtensa-esp32-espidf/release/esp32-crosswalk-rs --monitor
